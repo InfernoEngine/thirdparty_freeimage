@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <Build>
-	<Module name="ThirdPartyFreeImage" type="thirdparty">
+	<Module name="ThirdParty" type="thirdparty">
 		<Library>
-			<Name>thirdparty_freeimage</Name>
+			<Name>ThirdParty.FreeImage</Name>
 			<SourceRoot>Source</SourceRoot>
 			<ExportedIncludeDirectory>Source</ExportedIncludeDirectory>
 			<ThirdParty>true</ThirdParty>
@@ -96,12 +96,12 @@
 				Metadata\TagLib.cpp;
 				Metadata\XTIFF.cpp
 			</ThirdPartySourceFile>
-			<Dependency>thirdparty_zlib</Dependency>
-			<Dependency>thirdparty_libpng</Dependency>
-			<Dependency>thirdparty_libtiff</Dependency>
-			<Dependency>thirdparty_libjpeg</Dependency>
-			<Dependency>thirdparty_openexr</Dependency>
-			<Dependency>thirdparty_imath</Dependency>
+			<Dependency>ThirdParty.Zlib</Dependency>
+			<Dependency>ThirdParty.LibPNG</Dependency>
+			<Dependency>ThirdParty.LibTIFF</Dependency>
+			<Dependency>ThirdParty.LibJPEG</Dependency>
+			<Dependency>ThirdParty.OpenEXR</Dependency>
+			<Dependency>ThirdParty.Imath</Dependency>
 		</Library>
 	</Module>
 </Build>
